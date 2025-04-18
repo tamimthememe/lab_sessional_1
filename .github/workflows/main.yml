@@ -16,7 +16,7 @@ jobs:
     steps:
       # Step 1: Check out the repository code
       - name: Checkout code
-        uses: actions/checkout@v3/Cafe_Management_System
+        uses: actions/checkout@v3
 
       # Step 2: Set up Node.js environment
       - name: Set up Node.js
